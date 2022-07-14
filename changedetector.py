@@ -1,6 +1,4 @@
 version_file = open("history/last", "r")
-last = int(version_file.read())
-
-last_file = open("history/" + last, "r")
+last_file = open("history/" + version_file.read(), "r")
 print(last_file)
 
