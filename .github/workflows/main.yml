@@ -33,6 +33,6 @@ jobs:
         run: |        
           git config --global user.name 'xingxux'
           git config --global user.email 'xingxux@users.noreply.github.com'
-          git add -all
+          git add -A
           git commit -m "new pdfs"
           git push
