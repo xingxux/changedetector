@@ -6,3 +6,7 @@ new_file = open("history/" + str(last_version+1), "w")
 new_file.write("abc")
 new_file.close()
 
+version_file = open("history/last", "w")
+version_file.write(str(last_version+1))
+version_file.close()
+
