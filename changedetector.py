@@ -1,2 +1,4 @@
-f = open("history/0", "r")
-print(f.read())
+f = open("history/last", "r")
+v = int(f.read())
+print(v+1)
+
